@@ -1,0 +1,5 @@
+baseURL = 'https://worldforge.org/'
+languageCode = 'en-us'
+title = 'Worldforge - the Free MMORPG project'
+theme = 'ananke'
+enableGitInfo = true
