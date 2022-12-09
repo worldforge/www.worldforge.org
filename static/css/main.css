@@ -1,0 +1,180 @@
+/******************************************************************
+This is a heavily modified version of: Simply Clean
+Theme: WF Clean and Simple
+Original Author: Michael GrissingerModified by: Dean Bouvier
+Version: 0.1
+*******************************************************************/
+
+/** Reset Minimized ***********************************************/
+/******************************************************************/
+@charset"utf-8";html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,button{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section{display:block}button{cursor:pointer}hr{margin:0;padding:0}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}label, input[type=button], input[type=submit], button { cursor: pointer; }
+
+
+/** Sitewide Styles ***********************************************/
+/******************************************************************/
+
+body { font: 14px/20px Verdana, Geneva, sans-serif; color: #737272; }
+#shell { margin: 0 auto; }
+a { text-decoration: none; }
+.container { margin: 0 auto; width: 1150px; position: relative; }
+.imgLeft { float: left; margin: 0 12px 5px 0; }
+.imgRight { float: right; margin: 0 0 5px 12px; }
+.clear { clear: both; }
+.twoCols { width: 50%; float: left; }
+.hidden { display: none; visibility: hidden; } 
+.invisible { visibility: hidden; }
+
+
+::-moz-selection{ background: #555; color:#fff; text-shadow: none; }
+::selection { background:#555; color:#fff; text-shadow: none; } 
+
+
+/** Header Styles *************************************************/
+/******************************************************************/
+
+header { position: relative; z-index: 2; }
+
+	#titlebar { background: url(/img/bgTitleBar2.jpg) repeat-x; height: 122px; }
+	
+		#logo { position: left top; height: 133px; width: 567px;}
+		
+		header nav { position: absolute; left: 70px; top: 121px; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; z-index: 2; }
+			
+			header nav ul {  }
+			header nav ul li { background: #3a3a3a url(/img/bgNavLi.jpg) top left repeat-x; float: left; margin: 0 0 0 2px; -moz-border-radius: 0 0 3px 3px; -webkit-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; -moz-box-shadow: 1px 1px 2px #222;  -webkit-box-shadow: 1px 1px 2px #222; box-shadow: 1px 1px 2px #222; position: relative; }
+			.lt9 header nav ul li { border-right: 1px solid #222; border-bottom: 1px solid #222; }
+			header nav ul li a { display: block; padding: 8px 25px; color: #fff; -moz-text-shadow: 1px 1px 0px #000; -webkit-text-shadow: 1px 1px 0px #000; text-shadow: 1px 1px 0px #000; }
+			header nav ul li:hover, header nav ul li.nav-selected, header nav ul li.nav-path-selected { background: #535353; }
+			header nav ul li a:hover {  }
+			
+				header nav ul ul { display: none; position: absolute; width: 180px; background: #444; top: 36px; left: 0; -moz-border-radius: 0 0 3px 3px; -webkit-border-radius: 0 0 3px 3px; border-radius: 0 0 3px 3px; -moz-box-shadow: 1px 1px 2px #222;  -webkit-box-shadow: 1px 1px 2px #222; box-shadow: 1px 1px 2px #222;  }
+				.lt9 header nav ul ul { border-right: 1px solid #222; border-bottom: 1px solid #222; }
+				header nav ul li:hover ul { display: block; }
+				header nav ul li ul li { background: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; float: none; margin: 0; }
+				.lt9 header nav ul li ul li { border: none; }
+				header nav ul li ul li a { padding: 5px 0 5px 25px; display: block; }						#socialicons{ position: absolute; top:10px; right: 0;  }			#socialicons h3 { display: none; }			#search input { display: block; float: left; border: none; padding: 0; }				
+	
+		#search { position: absolute; top:90px; right: 50px;  }
+			#search h3 { display: none; }
+			#search input { display: block; float: left; border: none; padding: 0; }
+			#search input[type="text"] { background: url(/img/bgSearch.png); width: 172px; height: 22px; font-size: 13px; color: #ccc; padding: 2px 5px; }
+			#search input[type="submit"] { background: url(/img/btn-search.png); width: 26px; height: 26px; line-height: 0; text-indent: -9999em; }
+	#headerImg { position: absolute; height: 100px; background: url(/img/bgHeaderImg.jpg) repeat-x; z-index: 1; }.subpage #headerImg { height: 100px; display: none; }		
+	
+/** Body/Content Styles *******************************************/
+/******************************************************************/
+
+#mainShell { position: relative; z-index: 1; background: #fff url(/img/bgMainShell.jpg) repeat-x top left; padding-top: 20px; margin: 0 0 30px;}
+#mainShell .container { background: #e5e5e6 url(/img/bgMainShell.gif) repeat-y -2px 5px; width: 1150px; padding: 5px; }
+body.full #mainShell .container { background-image: url(/img/bgMainShell-full.gif); }
+		
+	
+		.clip { width: 40px; height: 48px; background: url(/img/bgTLCorner.gif); position: absolute; top: -5px; left: 0; z-index: 3; }
+		
+		/** General Content Elements ******************************/
+		/**********************************************************/
+		
+		#mainShell  hgroup {  }
+		#mainShell  h1 { font-size: 24px; color: #696969; text-transform: uppercase; margin: 0 0 15px;}
+		#mainShell  h2 { font-size: 18px; color: #0aabd9; text-transform: uppercase; margin: 15px 0 5px; }
+		#mainShell  h1+h2 { margin: -15px 0 20px; }
+		#mainShell  h3 { font-size: 15px; color: #444; }
+		#mainShell  p { margin: 0 0 15px;  }
+		#mainShell  a { color: #0aabd9; }
+		#mainShell  a:hover { text-decoration: underline; }
+		#mainShell  strong {  }
+		#mainShell  em {  }
+		#mainShell  blockquote { margin: 0 0 15px; }
+		#mainShell  ul, ol { margin: 15px 0 15px 15px; }
+		#mainShell  ul ul, #mainShell ol ol { margin: 0 0 0 20px; }
+		#mainShell  ul {  }
+		#mainShell  li {  }
+		#mainShell  ul li { list-style: disc; }
+		#mainShell #dsq-content ul li { background: none; padding: 0; list-style: none; }
+		#mainShell  li li { list-style: square; }
+		#mainShell  li li li { list-style: circle; }
+		#mainShell  ul li a {  }
+		#mainShell  ol {  }
+		#mainShell  ol li { list-style: decimal; }
+		#mainShell  ol ol { margin: 5px 0 5px 50px; }
+		#mainShell  dl { margin: 15px 0; }
+		#mainShell  dl dt { font-weight: bold; }
+		#mainShell  dl dd { margin: 0 0 0 25px; }
+		#mainShell  hr {  }
+		#mainShell  img {  }
+		#mainShell  hr { margin: 15px 0; }
+	
+		/** Form Elements ******************************************/
+		/***********************************************************/
+		
+		#mainShell  form {  }
+		#mainShell  fieldset {  }
+		#mainShell  label {  }
+		#mainShell  input, #mainShell  textarea, #mainShell  select {  }
+		#mainShell  input {  }
+		#mainShell  input[type="submit"] {  }
+		#mainShell  textarea {  }
+		#mainShell  select {  }
+		
+	#mainShell article { background: #f7f7f7 url(/img/bgMainShellSection.jpg) repeat-x; width: 750px; float: left; min-height: 280px; padding: 40px; position: relative; }
+	body.full #mainShell article { float: none; width: auto; }
+	
+		#mainShell article .clip {  }
+		#mainShell article blockquote { border-left: 3px solid #999; padding-left: 30px; }
+	
+	#mainShell #sidebar { background: #f7f7f7 url(/img/bgMainShellSection.jpg) repeat-x; float: left; width: 230px; min-height: 280px; margin-left: 21px; padding: 29px; position: relative; }
+	
+		#subNav { margin: 0 0 20px; }
+		
+			#subNavHeading { font-size: 22px; color: #888; text-transform: uppercase; display: block; margin: 0 0 10px; }
+			#subNav ul { margin: 0; padding: 10px 15px; background: #eee; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+			#subNav ul li { list-style: none !important; }
+			#subNav ul li a { display: block; line-height: 1.5em }
+			#subNav ul li a:hover { text-decoration: none !important; background: #fff; }
+			
+		
+		#mainShell #sidebar .clip {  }
+		#mainShell #sidebar h2 { color: #d90a67; }
+		#mainShell #sidebar blockquote { font-size: 32px; line-height: 30px; }	
+		
+		
+	/** Two Columns ********************************************/
+	/***********************************************************/
+	#mainShell #column { background: #f7f7f7 url(/img/bgMainShellSection.jpg) repeat-x; float: left; width: 515px; min-height: 280px; margin-left: 0px; padding: 29px; position: relative; }
+
+		#colNav { margin: 0 0 20px; }
+
+			#colNavHeading { font-size: 22px; color: #888; text-transform: uppercase; display: block; margin: 0 0 10px; }
+			#colNav ul { margin: 0; padding: 10px 15px; background: #eee; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; }			
+			#colNav ul li { list-style: none !important; }
+			#colNav ul li a { display: block; line-height: 1.5em }
+			#colNav ul li a:hover { text-decoration: none !important; background: #fff; }							
+		#mainShell #column .clip {  }
+		#mainShell #column h2 { color: #d90a67; }
+		#mainShell #column blockquote { font-size: 32px; line-height: 30px; }			
+	
+	/** Top and Bottom Borders *********************************/
+	/***********************************************************/
+	#mainShell #btm, #mainShell #top { height: 11px; width: 1160px; position: absolute; left: 0; }
+	#mainShell #btm { background: url(/img/bgMainShellArticle.gif) no-repeat -2px bottom; bottom: -11px; }
+	body.full #mainShell #btm { background-image: url(/img/bgMainShellArticle-full.gif); }
+	#mainShell #top { background: url(/img/bgMainShellTop.gif) no-repeat -2px top;  top: -5px; }
+	body.full #mainShell #top { background-image: url(/img/bgMainShellTop-full.gif); }
+	.ie7 #mainShell #top { height: 5px; }
+	
+
+/** Footer Styles *************************************************/
+/******************************************************************/
+
+footer #sep-foot{display:table-row; overflow:hidden}footer .sep{display:table-cell; width:400px; text-align:justify; padding:5 5px; overflow:hidden}footer .copyright{font-size: 10px; height:auto; width:auto; position: relative; text-align:center;}
+	
+	
+/*
+ * Media queries for responsive design
+ * These follow after primary styles so they will successfully override. 
+ * Removed for now due to inconsistent layouts.
+ */
+ 
+
+
+

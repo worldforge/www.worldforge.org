@@ -1,0 +1,111 @@
+{{ define "body"}}
+<body class="page">
+{{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+<section id="mainShell">
+  <div class="container">
+
+    <article>
+
+      <header>
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+      </header>
+      {{ .Content }}
+      <div class="clip"></div>
+
+    </article>
+
+    <section id="sidebar">
+
+      <nav id="subNav" style="display: none;">
+
+
+      </nav>
+
+      <h3 style="text-align: center;">Latest News</h3>
+
+      <div class="grid_4 main-content-thumb">
+        <h4>— June 17, 2020</h4>
+        <div class="image-link">
+          <a href="/index.php/about/news/simple-rules-combined-complex-gameplay/">
+          </a>
+        </div>
+        <h3><a href="/index.php/about/news/simple-rules-combined-complex-gameplay/">Simple rules combined to complex gameplay</a></h3>
+        <!-- <h3><a  href="/index.php/about/news/simple-rules-combined-complex-gameplay/">Simple rules combined to complex gameplay</a></h3> -->
+        <p>
+          We try to provide a series of simple rules, which together can be combined into complex game play. This is an example of one of…	</p>
+
+      </div>
+
+
+      <div class="grid_4 main-content-thumb">
+        <h4>— June 14, 2020</h4>
+        <div class="image-link">
+          <a href="/index.php/about/news/movement-constraints/">
+          </a>
+        </div>
+        <h3><a href="/index.php/about/news/movement-constraints/">Movement constraints</a></h3>
+        <!-- <h3><a  href="/index.php/about/news/movement-constraints/">Movement constraints</a></h3> -->
+        <p>
+          New functionality on the server now allows for rules to be defined for how players can move other entities.	</p>
+
+      </div>
+
+
+      <div class="grid_4 main-content-thumb">
+        <h4>— December 30, 2019</h4>
+        <div class="image-link">
+          <a href="/index.php/about/news/installable-packages-windows-and-linux/">
+          </a>
+        </div>
+        <h3><a href="/index.php/about/news/installable-packages-windows-and-linux/">Installable packages for Windows and Linux</a></h3>
+        <!-- <h3><a  href="/index.php/about/news/installable-packages-windows-and-linux/">Installable packages for Windows and Linux</a></h3> -->
+        <p>
+          We've extended the selection of installable packages.	</p>
+
+      </div>
+
+
+      <div class="grid_4 main-content-thumb">
+        <h4>— September 23, 2019</h4>
+        <div class="image-link">
+          <a href="/index.php/about/news/adding-fishing-gameplay/">
+          </a>
+        </div>
+        <h3><a href="/index.php/about/news/adding-fishing-gameplay/">Adding fishing gameplay</a></h3>
+        <!-- <h3><a  href="/index.php/about/news/adding-fishing-gameplay/">Adding fishing gameplay</a></h3> -->
+        <p>
+          A refactoring of the way usage works allows for an easy setup of new fishing gameplay.	</p>
+
+      </div>
+
+
+      <div class="grid_4 main-content-thumb">
+        <h4>— May 21, 2018</h4>
+        <div class="image-link">
+          <a href="/index.php/about/news/autoreload-rules-and-scripts-cyphesis/">
+          </a>
+        </div>
+        <h3><a href="/index.php/about/news/autoreload-rules-and-scripts-cyphesis/">Autoreload of rules and scripts in Cyphesis</a></h3>
+        <!-- <h3><a  href="/index.php/about/news/autoreload-rules-and-scripts-cyphesis/">Autoreload of rules and scripts in Cyphesis</a></h3> -->
+        <p>
+          The server, Cyphesis, has gained functionality for automatically reloading changed rules and scripts.	</p>
+
+      </div>
+
+
+      <p><a title="News" href="/index.php/about/news/">Read more news</a></p>
+      <div class="clip"></div>
+
+    </section>
+    <div class="clear"></div>
+    <div id="btm"></div>
+    <div id="top"></div>
+
+  </div><!-- .container -->
+</section><!-- mainShell -->
+{{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+</body>
+{{ end }}
+

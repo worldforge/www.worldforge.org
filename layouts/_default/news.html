@@ -1,0 +1,44 @@
+{{ define "body"}}
+<body class="page">
+{{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+<section id="mainShell">
+    <div class="container">
+
+        <article>
+
+            <header>
+                <h1 class="f1">
+                    {{ .Title }}
+                </h1>
+            </header>
+            {{ .Content }}
+            <section class="flex-ns flex-wrap justify-around mt5">
+                {{ range .Paginator.Pages }}
+                <div class="relative w-100 w-30-l mb4 bg-white">
+                    {{ .Render "summary" }}
+                </div>
+                {{ end }}
+            </section>
+        </article>
+
+        <section id="sidebar">
+
+            <nav id="subNav" style="display: none;">
+
+
+            </nav>
+
+            <h3 style="text-align: center;">Latest News</h3>
+
+
+
+        </section>
+        <div class="clear"></div>
+        <div id="btm"></div>
+        <div id="top"></div>
+
+    </div><!-- .container -->
+</section><!-- mainShell -->
+{{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+</body>
+{{ end }}

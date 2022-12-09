@@ -1,0 +1,28 @@
+{{ define "body"}}
+<body class="page full">
+{{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+<section id="mainShell">
+  <div class="container">
+
+    <article>
+
+      <header>
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+      </header>
+      {{ .Content }}
+      <div class="clip"></div>
+
+    </article>
+
+    <div class="clear"></div>
+    <div id="btm"></div>
+    <div id="top"></div>
+
+  </div><!-- .container -->
+</section><!-- mainShell -->
+{{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+</body>
+{{ end }}
+

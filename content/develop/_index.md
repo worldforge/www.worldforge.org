@@ -1,0 +1,37 @@
+---
+title: "Develop"
+menu:
+    main:
+        weight: 5
+---
+
+Are you interested in helping out with developing the system? Awesome! We're always pining for new developers. Developers of all sizes. Perhaps you know a little bit Python? Or you're familiar with C++? Perhaps you're a exellent artist, or a talented 3d sculptor. Might be you're a composer, or a sound technician. You might be good at web design.
+
+And so on. The point is: whatever you can do, we welcome your contribution.
+
+Everything we do is 100% Free Software. All of our code is available, as is all of our assets.
+
+#### Getting involved with the community
+If you want to get involved with the project you absolutely have to subscribe to the mailing lists. Most of the day to day communication happens through the General mailing list, and that also where you most easily can get in contact with other developers.
+
+Apart from the General mailing list you should also subscribe to the CVS mailing list (named so long ago when we used the CVS version control system). In general you should look through how you can interact with the [community](/community).
+
+#### Diving into the code
+If you're a coder and want to help out with coding you should start by getting all code set up using the [Hammer tool](/develop/build-source). We provide a lot of different libraries, and getting everything to compile can often be tricky. The Hammer tool will help you getting all of this sorted.
+
+Once that's done you probably want to look closer at how everything [fits together](/develop/technical-overview). You will want to look closer at the various [components](/components). Look through the code at [Github](https://github.com/worldforge). See if there are any tasks or bugs registered in the [Launchpad](https://launchpad.net/worldforge). And of course hang out with us on IRC and the mailing list.
+
+Follow these quick steps to get started.
+
+1. Join the "General" and "CVS" mailing lists. 
+1. [Build](h/develop/build-source/) both Ember and Cyphesis locally.
+1. Look for tasks on the [Launchpad](https://launchpad.net/worldforge).
+
+#### Working with media assets
+If you're an artists who wants to contribute to the project you'll find that there are an nigh endless amount of things that needs to be created. We are somewhat unique in that we provide a very large media repository with a very permissive license. It's huge, and we aim to make it even larger. The creation of media assets is a huge field, so head over to the media section.
+
+Follow these quick steps to get started
+
+1. Join the "General" and "CVS" [mailing lists](http://mail.worldforge.org/lists/listinfo/).
+1. Install [Ember](/downloads/).
+1. Look for tasks on the [Launchpad](https://launchpad.net/worldforge).
