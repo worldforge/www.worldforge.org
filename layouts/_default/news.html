@@ -12,12 +12,14 @@
                 </h1>
             </header>
             {{ .Content }}
-            <section class="flex-ns flex-wrap justify-around mt5">
+            <section >
                 {{ range .Paginator.Pages }}
-                <div class="relative w-100 w-30-l mb4 bg-white">
+                <div>
                     {{ .Render "summary" }}
                 </div>
                 {{ end }}
+                {{ template "_internal/pagination.html" . }}
+
             </section>
         </article>
 
@@ -29,7 +31,15 @@
             </nav>
 
             <h3 style="text-align: center;">Latest News</h3>
-
+            {{ with .Site.GetPage "news" }}
+            {{ range .Pages }}
+            <div>
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>{{ .Date | time.Format ":date_long" }}
+            </div>
+            {{ end }}
+            {{ end }}
 
 
         </section>

@@ -1,0 +1,13 @@
+<div>
+    <div>
+        <div><strong>— {{ .Date | time.Format ":date_long" }}</strong></div>
+        <h3>
+            <a href="{{ .RelPermalink }}">
+                {{ .Title }}
+            </a>
+        </h3>
+        <div>
+            {{ .Summary }}
+        </div>
+    </div>
+</div>
