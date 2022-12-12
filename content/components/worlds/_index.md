@@ -9,7 +9,8 @@ menu:
 
 While the whole Worldforge project is designed to allow for you to create your own world we do provide some default
 worlds. These are mainly meant to be used as examples of what you can do, and as starting points for your own creations.
-The Worlds are defined using XML declarations, and are meant to be loaded into a running instance of [Cyphesis](/components/cyphesis), using the
+The Worlds are defined using XML declarations, and are meant to be loaded into a running instance
+of [Cyphesis](/components/cyphesis), using the
 cyimport command, like such:
 
 `cyimport deeds/braga/world.xml`

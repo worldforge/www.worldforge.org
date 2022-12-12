@@ -15,7 +15,8 @@ Varconf is a C++ utility library for handling configuration and settings. It inc
 * Signals to notify the application of configuration changes.
 * Server, client and tool developers can use Varconf to handle the configuration of their application.
 
-While it has good support for handling flat configuration data, it is not suited for more complex structured data. It's recommended that developers use Atlas to store complex data.
+While it has good support for handling flat configuration data, it is not suited for more complex structured data. It's
+recommended that developers use Atlas to store complex data.
 
 ### Source
 
