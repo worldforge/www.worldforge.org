@@ -9,6 +9,7 @@
     <meta name="robots" content="index, follow">
 
     {{ partial "site-style.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
 
 
     <link rel="shortcut icon" href="{{ relURL ($.Site.Params.favicon) }}" type="image/x-icon" />
