@@ -1,5 +1,8 @@
 # Worldforge main site
 
+[![Join us on Gitter!](https://badges.gitter.im/Worldforge.svg)](https://gitter.im/Worldforge/Lobby)
+[![Build site](https://github.com/worldforge/www.worldforge.org/actions/workflows/build_site.yml/badge.svg)](https://github.com/worldforge/www.worldforge.org/actions/workflows/build_site.yml)
+
 This contains the Worldforge main site, which would normally be served at www.worldforge.org.
 
 It uses the [Hugo](https://gohugo.io/) static site generator.
