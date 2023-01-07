@@ -11,4 +11,4 @@ It uses the [Hugo](https://gohugo.io/) static site generator.
 
 * Install Hugo. Last working version is 0.108
 * Run ```hugo```
-* Upload the content of the "publish" directory to the www.worldorge.org site
+* Upload the content of the "publish" directory to the www.worldforge.org site
