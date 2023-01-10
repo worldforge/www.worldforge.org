@@ -11,4 +11,14 @@ It uses the [Hugo](https://gohugo.io/) static site generator.
 
 * Install Hugo. Last working version is 0.108
 * Run ```hugo```
-* Upload the content of the "publish" directory to the www.worldforge.org site
+* Upload the content of the "public" directory to the www.worldforge.org site. Typically through rsync, like ```rsync -aP public/* www.worldforge.org:www```
+
+## Development
+
+During development you can keep an instance of Hugo running, to allow for automatic updates while you edit the site.
+
+Do this through 
+
+``` bash
+hugo server -D
+```
