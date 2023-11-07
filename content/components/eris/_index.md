@@ -19,4 +19,4 @@ important in-game (IG) operations such as entity creation, movement and updates.
 
 ### Source
 
-The source code for Eris can be found on [Github](https://github.com/worldforge/eris).
+The source code for Eris can be found on [Github](https://github.com/worldforge/worldforge/tree/master/libs/eris).

@@ -20,4 +20,4 @@ recommended that developers use Atlas to store complex data.
 
 ### Source
 
-The source code for Varconf can be found on [Github](https://github.com/worldforge/varconf).
+The source code for Varconf can be found on [Github](https://github.com/worldforge/worldforge/tree/master/libs/varconf).

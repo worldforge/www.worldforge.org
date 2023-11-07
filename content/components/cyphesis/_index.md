@@ -21,16 +21,12 @@ Some of the features provided are:
 
 ### Download
 
-We provide pre-build binaries for Linux.
-
-Either as a [Snap package](https://snapcraft.io/cyphesis)
-Or as [native packages](https://software.opensuse.org//download.html?project=games%3AWorldForge&package=cyphesis) for
-multiple distros
+We provide pre-build binaries for Linux as a [Snap package](https://snapcraft.io/cyphesis)
 These packages are all automatically built from the latest source.
 
 ### Building
 
-For building see the instructions found in the [source](https://github.com/worldforge/cyphesis).
+For building see the instructions found in the [source](https://github.com/worldforge/worldforge/tree/master/apps/cyphesis).
 
 ### Running locally
 

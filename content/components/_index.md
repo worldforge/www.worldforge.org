@@ -1,8 +1,8 @@
 ---
 title: "Components"
 menu:
-    main:
-        weight: 7
+  main:
+    weight: 7
 ---
 
 The Worldforge project is made up of many different components, which initially can be confusing. Creating a virtual
@@ -19,7 +19,7 @@ about [Ember the client](ember) and [Cyphesis the server](cyphesis).
 
 If you're more patient you perhaps rather want to also read up on the [Atlas](atlas) protocol, or the [Eris](eris)
 client library, or the [Mercator](mercator) terrain system. You might be interested in the [Varconf](varconf)
-configuration system, the [WFMath](wfmath) math library or the [Metaserver](metaserver). Keep in mind that all code is
-available for all of our systems, for you to both inspect and alter.
+configuration system, the [WFMath](wfmath) math library, the [Metaserver](metaserver) or the [Squall](squall) assets
+sync library. Keep in mind that all code is available for all of our systems, for you to both inspect and alter.
 
 You also want to take a look of the default [worlds](worlds) that we provide.

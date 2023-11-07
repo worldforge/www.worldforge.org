@@ -29,5 +29,5 @@ We provide automatically [built binaries](/downloads), using the latest source.
 
 ### Development and more info
 
-If you're interested in developing Ember, the source is available on [Github](https://github.com/worldforge/ember/).
+If you're interested in developing Ember, the source is available on [Github](https://github.com/worldforge/worldforge/tree/master/apps/ember).
 There's also a lot more information on the [wiki](http://wiki.worldforge.org/wiki/Ember).

@@ -12,7 +12,7 @@ the basic math objects that are used to build these shapes (points, vectors, mat
 
 ### Source
 
-The source code for WFMath can be found on [Github](https://github.com/worldforge/wfmath).
+The source code for WFMath can be found on [Github](https://github.com/worldforge/worldforge/tree/master/libs/wfmath).
 
 ### Geometries
 

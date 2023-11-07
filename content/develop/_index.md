@@ -15,7 +15,7 @@ Everything we do is 100% Free Software. All of our code is available, as is all 
 
 #### Getting involved with the community
 
-If you want to get involved with the project you absolutely have to subscribe to the mailing lists. Most of the
+If you want to get involved with the project you absolutely have join the chat on Gitter. Most of the
 day-to-day communication happens through the [Gitter](https://gitter.im/Worldforge/Lobby) channel, and that also where
 you most easily can get in contact with other developers. This site also has a helpful "Open Chat" feature to the right.
 
@@ -23,9 +23,9 @@ In general you should look through how you can interact with the [community](/co
 
 #### Diving into the code
 
-If you're a coder and want to help out with coding you should start by getting all code set up using
-the [Hammer tool](/develop/build-source). We provide a lot of different libraries, and getting everything to compile can
-often be tricky. The Hammer tool will help you getting all of this sorted.
+If you're a coder and want to help out with coding you should start by getting all code set up by cloning and building
+[the code](https://github.com/worldforge/worldforge). We provide all of the code needed both for server and client in
+a monorepo.
 
 Once that's done you probably want to look closer at how everything [fits together](/develop/technical-overview). You
 will want to look closer at the various [components](/components). Look through the code

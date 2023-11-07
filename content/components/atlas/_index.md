@@ -15,4 +15,4 @@ implementation independent, but so far there has been no need for alternative im
 the protocol specification can be found at the [wiki](http://wiki.worldforge.org/wiki/Atlas_Protocol).
 
 Source
-The source for Atlas-C++ is available at [Github](https://github.com/worldforge/atlas-cpp).
+The source for Atlas-C++ is available at [Github](https://github.com/worldforge/worldforge/tree/master/libs/atlas).

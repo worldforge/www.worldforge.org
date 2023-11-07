@@ -21,7 +21,7 @@ crater could be applied.
 
 ### Source
 
-The source code for Mercator can be found on [Github](https://github.com/worldforge/mercator).
+The source code for Mercator can be found on [Github](https://github.com/worldforge/worldforge/tree/master/libs/mercator).
 
 ### Dependencies
 Mercator depends on WFMath.
