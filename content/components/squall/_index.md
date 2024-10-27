@@ -18,7 +18,7 @@ requirements we had were:
   base media, and then will let servers extend this with their own media. Thus we envision that a lot of the media will
   be similar. So for example, a client would connect to two different servers, which share 90% of common assets. These
   common assets wouldn't need to be re-downloaded.
-* Have a built in mechanism for when assets are updated. This ties in to the vision we have about a development loop
+* Have a built-in mechanism for when assets are updated. This ties in to the vision we have about a development loop
   where the world is created inside a running server, without the need to restart the server. To accomplish this we need
   a good way to inform the client about changed assets. Whenever something changes the client should download the
   changed asset only.
